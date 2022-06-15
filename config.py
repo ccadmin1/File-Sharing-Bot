@@ -18,7 +18,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://rncqgvjftpfnly:0069c7ab39bea2d6558be70a84a88249dcffa6a9b8170d95e1d0cb4e2cabbe6a@ec2-3-231-138-24.compute-1.amazonaws.com:5432/d4fpu5micicib9")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
